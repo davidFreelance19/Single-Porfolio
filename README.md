@@ -17,11 +17,6 @@ This is a solution to the [Single-page design portfolio challenge on Frontend Me
 
 ### The challenge
 
-ユーザーができること:
-
-- デバイスの画面サイズに応じて、サイトに最適なレイアウトを表示します
-- ページ上のすべてのインタラクティブ要素のホバー状態を確認できる
-- マウス/トラックパッドまたはキーボードのいずれかを使用してスライダーを移動することができる
 
 ### Screenshot
 
@@ -44,7 +39,6 @@ This is a solution to the [Single-page design portfolio challenge on Frontend Me
 
 ### What I learned
 
-・Swiper の prev,next ボタンの編集の仕方を学ぶことができた。
 
 To see how you can add code snippets, see below:
 
@@ -63,9 +57,4 @@ To see how you can add code snippets, see below:
 	cursor: pointer;
 	transition: background-color 0.4s;
 }
-```
-
-### Useful resources
-
-- [Swiper のボタンの編集](https://dev.to/timo_ernst/how-to-customize-prev-next-buttons-in-react-swiper-js-4lki)
-- [スライダーをキーボードで操作する方法](https://codesandbox.io/s/swiper-keyboard-control-react-forked-5ntkuu?file=/src/App.jsx)
+```)
