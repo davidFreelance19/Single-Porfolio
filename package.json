@@ -1,0 +1,19 @@
+{
+  "name": "single-design-portfolio",
+  "version": "1.0.0",
+  "description": "SASS, JS",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass src/scss:build/css"
+  },
+  "author": "David Rodriguez Badillo",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.56.1"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sass": "^5.1.0"
+  }
+}

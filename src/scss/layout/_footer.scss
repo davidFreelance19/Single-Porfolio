@@ -1,0 +1,71 @@
+@use 'base/globales' as g;
+@use 'base/mixins' as m;
+.consultar{
+    background-color: g.$black;
+    color: g.$white;
+    border-radius: 1rem;
+}
+.consultar__container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    justify-content: center;
+}
+.consultar__heading, .consultar__text{
+    text-align: center;
+}
+.consultar__heading{
+    font-size: g.$sp-heading-md;
+}
+.consultar__text{
+    width: 95%;
+    font-size: g.$sp-body-md;
+    margin: 0 auto;
+    padding: 1rem 0;
+}
+@include m.tablet {
+    .consultar__text{
+        width: 80%;
+    }
+    .consultar{
+        .btn{
+            margin: 0 auto;
+        }
+    }
+    .consultar__heading{
+        font-size: g.$pc-heading-sm;
+    }
+}
+@include m.desktop {
+    .consultar{
+        .btn{
+            height: 65px;
+            width: 230px;
+        }
+        .btn__text{
+            font-size: 1.6rem;
+        }
+    }
+    .consultar__heading, .consultar__text{
+        text-align: unset;
+    }
+    .consultar__container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+    }
+    .consultar__heading{
+        font-size: g.$tab-heading-lg;
+        margin-bottom: 2rem;
+    }
+    .consultar__text{
+        width: 90%;
+        font-size: 1.8rem;
+        margin: 0;
+    }
+}
+.footer{
+    padding: 3rem 0;
+}

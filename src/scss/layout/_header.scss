@@ -1,0 +1,26 @@
+@use 'base/globales' as g;
+@use 'base/mixins' as m;
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0;
+}
+.btn{
+    padding: 1.5rem 3.5rem;
+    border-radius: 5rem;
+}
+.header__button{
+    background-color: g.$black;
+}
+@include m.tablet {
+    .btn{
+        padding: 2rem 4.5rem;
+    }
+}
+.btn__text{
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 1.4rem;
+    color: g.$white;
+}

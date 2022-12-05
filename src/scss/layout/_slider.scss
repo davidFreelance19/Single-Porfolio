@@ -1,0 +1,53 @@
+@use 'base/globales' as g;
+@use 'base/mixins' as m;
+.projects{
+    margin-bottom: 5rem;
+    overflow-x:hidden;
+}
+.projects__arrows{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    div{
+        background-color: g.$black;
+        width: 64px;
+        height: 64px;
+        border-radius: 10rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+.projects__title{
+    font-size: g.$sp-heading-md;
+    text-align: center;
+}
+.projects__slider{
+    display: flex;
+    grid-template-columns: repeat(5,1fr);
+    padding-top: 3rem;
+    gap: 2rem;
+    transform: translate3d(-455px, 0px, 0px);
+    img{
+        max-width: 245px;
+    }
+    @include m.tablet {
+        img{
+            max-width: 502px;
+        }
+    }
+}
+@include m.tablet {
+    .projects__slider{
+        padding-top: 5rem;
+        transform: translate3d(-931px, 0px, 0px);
+    }
+    .projects__title{
+        font-size: g.$pc-heading-md;
+    }
+}
+@include m.desktop {
+    .projects__slider{
+        transform: translate3d(-400px, 0px, 0px);
+    } 
+}

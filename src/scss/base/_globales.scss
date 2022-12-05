@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*========= Font Size =========*/
+$skill-font-size: 2rem;
+
+/* phone: font-size */
+$sp-heading-lg: 3.6rem;
+$sp-heading-md: 2.6rem;
+$sp-heading-sm: 2.4rem;
+
+$sp-body-md: 1.6rem;
+$sp-body-sm: 1.4rem;
+
+/* tablet: font-size */
+$tab-heading-lg: 4.4rem;
+
+/* desktop: font-size */
+$pc-heading-lg: 5.6rem;
+$pc-heading-md: 4rem;
+$pc-heading-sm: 3.2rem;
+
+$pc-body-md: 1.8rem;
+$pc-body-sm: 1.6rem;
+
+/*========= Color =========*/
+$white: hsl(0, 0%, 100%);
+$black: hsl(0, 0%, 1%);
+$medium-brown: hsl(30, 5%, 45%);
+$light-cream: hsl(28, 100%, 97%);
+$galactic-blue: hsl(252, 66%, 62%);
+$summer-yellow: hsl(28, 89%, 67%);
+$pink: hsl(0, 78%, 79%);
+$light-red: hsl(7, 77%, 66%);
+$cyan: hsl(172, 46%, 57%);
+$dark-purple: hsl(314, 45%, 23%);
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-family: 'Plus Jakarta Sans', sans-serif;
+	background-color: $light-cream;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.btn{
+    cursor: pointer;
+}
