@@ -24,8 +24,6 @@ This is a solution to the [Single-page design portfolio challenge on Frontend Me
 
 ### Links
 
-- Solution URL: [リンク](https://your-solution-url.com)
-- Live Site URL: [リンク](https://your-live-site-url.com)
 
 ## My process
 
